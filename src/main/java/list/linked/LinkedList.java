@@ -1,4 +1,4 @@
-package list;
+package list.linked;
 
 import java.util.Comparator;
 import java.util.Iterator;
