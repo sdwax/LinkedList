@@ -279,4 +279,18 @@ public class LinkedList<E> implements List<E> {
         }
         return false;
     }
+
+    @Override
+    public void reverse() {
+        Node<E> prev = null;
+        Node<E> current = this.head;
+        Node<E> next = null;
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        this.head = prev;
+    }
 }
