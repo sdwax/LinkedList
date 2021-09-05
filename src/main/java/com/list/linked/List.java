@@ -1,4 +1,4 @@
-package com.project.list.linked;
+package com.list.linked;
 
 import java.util.Comparator;
 import java.util.Optional;
