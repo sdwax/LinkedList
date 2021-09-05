@@ -1,4 +1,4 @@
-package com.list;
+package list;
 
 import java.util.Objects;
 

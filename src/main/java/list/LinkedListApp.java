@@ -1,7 +1,4 @@
-package com.list;
-
-import com.list.linked.List;
-import com.list.linked.LinkedList;
+package list;
 
 import java.util.Comparator;
 import java.util.Optional;

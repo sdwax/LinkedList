@@ -1,4 +1,4 @@
-package com.list.linked;
+package list;
 
 class Node<E> {
 
